@@ -1,0 +1,12 @@
+.AppHeader {
+  align-items: flex-end;
+}
+
+.AppHeader h1 {
+  flex-grow: 1;
+}
+
+.AppHeader h2 {
+  font-size: 1.2rem;
+  color: grey;
+}

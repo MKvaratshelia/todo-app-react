@@ -1,0 +1,19 @@
+.TodoListItem {
+  display: flex;
+  justify-content: space-between;
+}
+.TodoListItemLabel {
+  margin-left: 1.25rem;
+  line-height: 35px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.TodoListItem.done .TodoListItemLabel {
+  text-decoration: line-through;
+}
+
+.TodoListItem.important .TodoListItemLabel {
+  color: steelblue;
+  font-weight: bold;
+}
